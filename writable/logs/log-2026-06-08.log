@@ -1,0 +1,16 @@
+CRITICAL - 2026-06-08 06:12:12 --> The action you requested is not allowed.
+in APPPATH/system/Security/Security.php on line 300.
+ 1 APPPATH/system/Security/Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 APPPATH/system/Filters/CSRF.php(56): CodeIgniter\Security\Security->verify()
+ 3 APPPATH/system/Filters/Filters.php(184): CodeIgniter\Filters\CSRF->before()
+ 4 APPPATH/system/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 APPPATH/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-06-08 11:56:44 --> The action you requested is not allowed.
+in APPPATH/system/Security/Security.php on line 300.
+ 1 APPPATH/system/Security/Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 APPPATH/system/Filters/CSRF.php(56): CodeIgniter\Security\Security->verify()
+ 3 APPPATH/system/Filters/Filters.php(184): CodeIgniter\Filters\CSRF->before()
+ 4 APPPATH/system/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 APPPATH/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()

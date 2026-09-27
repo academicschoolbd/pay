@@ -1,0 +1,14 @@
+CRITICAL - 2025-05-09 21:45:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in APPPATH/system/Database/BaseConnection.php on line 428.
+ 1 APPPATH/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `uid`, `brand_key`, `id`
+FROM `brands`
+WHERE `brand_key` = :brand_key:', [...], false)
+ 3 APPPATH/system/Model.php(1073): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Helpers/user_helper.php(151): CodeIgniter\Model->get('uid,brand_key,id', 'brands', [...])
+ 5 APPPATH/Controllers/Api.php(33): brandValidation('8QFIJJNzDGGw1qmhdCJcK5xcvuh8PwRXviUfDlLatVhgkjXlZv')
+ 6 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->payment('create')
+ 7 APPPATH/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 8 APPPATH/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,12 @@
+CRITICAL - 2024-11-06 23:03:46 --> Undefined property: CodeIgniter\View\View::$encryption
+in APPPATH/Viewsunique/methods/mastercard.php on line 129.
+ 1 APPPATH/Viewsunique/methods/mastercard.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$encryption', '/home/superpaybd/public_html/pay.superpaybd.website/app/Viewsunique/methods/mastercard.php', 129)
+ 2 APPPATH/Viewsunique/execute_payment.php(81): include('/home/superpaybd/public_html/pay.superpaybd.website/app/Viewsunique/methods/mastercard.php')
+ 3 APPPATH/system/View/View.php(228): include('/home/superpaybd/public_html/pay.superpaybd.website/app/Viewsunique/execute_payment.php')
+ 4 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('execute_payment', [], true)
+ 6 APPPATH/Controllers/Api.php(115): view('execute_payment', [...])
+ 7 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->execute_payment('mastercard', 'f1e08894a36e1217394324fb5af12fe8')
+ 8 APPPATH/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 9 APPPATH/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()

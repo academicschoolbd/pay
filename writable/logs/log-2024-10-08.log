@@ -1,0 +1,18 @@
+CRITICAL - 2024-10-08 13:42:43 --> Invalid file: "execute.php"
+in APPPATH/system/Exceptions/FrameworkException.php on line 39.
+ 1 APPPATH/system/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Api.php(100): view()
+ 4 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->execute()
+ 5 APPPATH/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 APPPATH/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-08 13:44:57 --> Invalid file: "execute_payment.php"
+in APPPATH/system/Exceptions/FrameworkException.php on line 39.
+ 1 APPPATH/system/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Api.php(115): view()
+ 4 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->execute_payment()
+ 5 APPPATH/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 APPPATH/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()

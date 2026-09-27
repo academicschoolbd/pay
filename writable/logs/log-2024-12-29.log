@@ -1,0 +1,12 @@
+CRITICAL - 2024-12-29 13:55:15 --> A non-numeric value encountered
+in APPPATH/Viewsunique/methods/binance.php on line 35.
+ 1 APPPATH/Viewsunique/methods/binance.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', '/home/tuktakpay/pay.tuktakpay.com/app/Viewsunique/methods/binance.php', 35, [...])
+ 2 APPPATH/Viewsunique/execute_payment.php(81): include('/home/tuktakpay/pay.tuktakpay.com/app/Viewsunique/methods/binance.php')
+ 3 APPPATH/system/View/View.php(228): include('/home/tuktakpay/pay.tuktakpay.com/app/Viewsunique/execute_payment.php')
+ 4 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render('execute_payment', [], true)
+ 6 APPPATH/Controllers/Api.php(115): view('execute_payment', [...])
+ 7 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->execute_payment('binance', '08b5950be943c89228bb73f84cf88e99')
+ 8 APPPATH/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 9 APPPATH/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()

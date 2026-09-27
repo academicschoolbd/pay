@@ -1,0 +1,22 @@
+CRITICAL - 2025-11-30 14:07:26 --> Object of class stdClass could not be converted to string
+in APPPATH/Viewsuddok/methods/bkash.php on line 205.
+ 1 APPPATH/Viewsuddok/execute_payment.php(81): include()
+ 2 APPPATH/system/View/View.php(228): include('/home/qbhjbfkklj/pay.rokopay.com/app/Viewsuddok/execute_payment.php')
+ 3 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Api.php(115): view()
+ 6 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->execute_payment()
+ 7 APPPATH/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 APPPATH/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-11-30 14:10:10 --> Object of class stdClass could not be converted to string
+in APPPATH/Viewsuddok/methods/bkash.php on line 205.
+ 1 APPPATH/Viewsuddok/execute_payment.php(81): include()
+ 2 APPPATH/system/View/View.php(228): include('/home/qbhjbfkklj/pay.rokopay.com/app/Viewsuddok/execute_payment.php')
+ 3 APPPATH/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 APPPATH/system/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Api.php(115): view()
+ 6 APPPATH/system/CodeIgniter.php(942): App\Controllers\Api->execute_payment()
+ 7 APPPATH/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 APPPATH/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(42): CodeIgniter\CodeIgniter->run()

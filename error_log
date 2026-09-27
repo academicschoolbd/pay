@@ -1,0 +1,40 @@
+[28-Nov-2025 18:50:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\Autoloader\token_get_all() in /home/qbhjbfkklj/pay.rokopay.com/app/system/Autoloader/FileLocator.php:123
+Stack trace:
+#0 /home/qbhjbfkklj/pay.rokopay.com/app/system/Config/BaseService.php(379): CodeIgniter\Autoloader\FileLocator->getClassname('/home/qbhjbfkkl...')
+#1 /home/qbhjbfkklj/pay.rokopay.com/app/system/Config/BaseService.php(267): CodeIgniter\Config\BaseService::buildServicesCache()
+#2 /home/qbhjbfkklj/pay.rokopay.com/app/system/Config/BaseService.php(252): CodeIgniter\Config\BaseService::serviceExists('codeigniter')
+#3 /home/qbhjbfkklj/pay.rokopay.com/index.php(35): CodeIgniter\Config\BaseService::__callStatic('codeigniter', Array)
+#4 {main}
+  thrown in /home/qbhjbfkklj/pay.rokopay.com/app/system/Autoloader/FileLocator.php on line 123
+[28-Nov-2025 18:50:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\Autoloader\token_get_all() in /home/qbhjbfkklj/pay.rokopay.com/app/system/Autoloader/FileLocator.php:123
+Stack trace:
+#0 /home/qbhjbfkklj/pay.rokopay.com/app/system/Config/BaseService.php(379): CodeIgniter\Autoloader\FileLocator->getClassname('/home/qbhjbfkkl...')
+#1 /home/qbhjbfkklj/pay.rokopay.com/app/system/Config/BaseService.php(267): CodeIgniter\Config\BaseService::buildServicesCache()
+#2 /home/qbhjbfkklj/pay.rokopay.com/app/system/Config/BaseService.php(252): CodeIgniter\Config\BaseService::serviceExists('codeigniter')
+#3 /home/qbhjbfkklj/pay.rokopay.com/index.php(35): CodeIgniter\Config\BaseService::__callStatic('codeigniter', Array)
+#4 {main}
+  thrown in /home/qbhjbfkklj/pay.rokopay.com/app/system/Autoloader/FileLocator.php on line 123
+[28-Nov-2025 18:52:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\Autoloader\token_get_all() in /home/qbhjbfkklj/pay.rokopay.com/app/system/Autoloader/FileLocator.php:123
+Stack trace:
+#0 /home/qbhjbfkklj/pay.rokopay.com/app/system/Config/BaseService.php(379): CodeIgniter\Autoloader\FileLocator->getClassname('/home/qbhjbfkkl...')
+#1 /home/qbhjbfkklj/pay.rokopay.com/app/system/Config/BaseService.php(267): CodeIgniter\Config\BaseService::buildServicesCache()
+#2 /home/qbhjbfkklj/pay.rokopay.com/app/system/Config/BaseService.php(252): CodeIgniter\Config\BaseService::serviceExists('codeigniter')
+#3 /home/qbhjbfkklj/pay.rokopay.com/index.php(35): CodeIgniter\Config\BaseService::__callStatic('codeigniter', Array)
+#4 {main}
+  thrown in /home/qbhjbfkklj/pay.rokopay.com/app/system/Autoloader/FileLocator.php on line 123
+[28-Nov-2025 18:52:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\Autoloader\token_get_all() in /home/qbhjbfkklj/pay.rokopay.com/app/system/Autoloader/FileLocator.php:123
+Stack trace:
+#0 /home/qbhjbfkklj/pay.rokopay.com/app/system/Config/BaseService.php(379): CodeIgniter\Autoloader\FileLocator->getClassname('/home/qbhjbfkkl...')
+#1 /home/qbhjbfkklj/pay.rokopay.com/app/system/Config/BaseService.php(267): CodeIgniter\Config\BaseService::buildServicesCache()
+#2 /home/qbhjbfkklj/pay.rokopay.com/app/system/Config/BaseService.php(252): CodeIgniter\Config\BaseService::serviceExists('codeigniter')
+#3 /home/qbhjbfkklj/pay.rokopay.com/index.php(35): CodeIgniter\Config\BaseService::__callStatic('codeigniter', Array)
+#4 {main}
+  thrown in /home/qbhjbfkklj/pay.rokopay.com/app/system/Autoloader/FileLocator.php on line 123
+[28-Nov-2025 18:52:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\Autoloader\token_get_all() in /home/qbhjbfkklj/pay.rokopay.com/app/system/Autoloader/FileLocator.php:123
+Stack trace:
+#0 /home/qbhjbfkklj/pay.rokopay.com/app/system/Config/BaseService.php(379): CodeIgniter\Autoloader\FileLocator->getClassname('/home/qbhjbfkkl...')
+#1 /home/qbhjbfkklj/pay.rokopay.com/app/system/Config/BaseService.php(267): CodeIgniter\Config\BaseService::buildServicesCache()
+#2 /home/qbhjbfkklj/pay.rokopay.com/app/system/Config/BaseService.php(252): CodeIgniter\Config\BaseService::serviceExists('codeigniter')
+#3 /home/qbhjbfkklj/pay.rokopay.com/index.php(35): CodeIgniter\Config\BaseService::__callStatic('codeigniter', Array)
+#4 {main}
+  thrown in /home/qbhjbfkklj/pay.rokopay.com/app/system/Autoloader/FileLocator.php on line 123
